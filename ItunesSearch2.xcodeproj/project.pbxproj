@@ -15,6 +15,7 @@
 		F5849A8B231F18F500F1A44C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5849A89231F18F500F1A44C /* LaunchScreen.storyboard */; };
 		F5849A94231F19BF00F1A44C /* SearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5849A93231F19BF00F1A44C /* SearchResult.swift */; };
 		F5849A96231F1CD500F1A44C /* ResultType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5849A95231F1CD500F1A44C /* ResultType.swift */; };
+		F5849A99231F1DE000F1A44C /* SearchResultController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5849A98231F1DE000F1A44C /* SearchResultController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		F5849A8C231F18F500F1A44C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F5849A93231F19BF00F1A44C /* SearchResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResult.swift; sourceTree = "<group>"; };
 		F5849A95231F1CD500F1A44C /* ResultType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultType.swift; sourceTree = "<group>"; };
+		F5849A98231F1DE000F1A44C /* SearchResultController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 		F5849A7C231F18F300F1A44C /* ItunesSearch2 */ = {
 			isa = PBXGroup;
 			children = (
+				F5849A97231F1DD000F1A44C /* Controller */,
 				F5849A92231F19B000F1A44C /* Model */,
 				F5849A7D231F18F300F1A44C /* AppDelegate.swift */,
 				F5849A7F231F18F300F1A44C /* ViewController.swift */,
@@ -79,6 +82,14 @@
 				F5849A95231F1CD500F1A44C /* ResultType.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		F5849A97231F1DD000F1A44C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F5849A98231F1DE000F1A44C /* SearchResultController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +163,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5849A99231F1DE000F1A44C /* SearchResultController.swift in Sources */,
 				F5849A96231F1CD500F1A44C /* ResultType.swift in Sources */,
 				F5849A86231F18F300F1A44C /* ItunesSearch2.xcdatamodeld in Sources */,
 				F5849A80231F18F300F1A44C /* ViewController.swift in Sources */,
