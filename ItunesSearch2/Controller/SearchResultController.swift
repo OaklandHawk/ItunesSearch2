@@ -14,5 +14,15 @@ class SearchResultController {
 	
 	var searchResults: [SearchResult] = []
 	
-	
+	func performSearch(with searchTerm: String, resultType: ResultType, completion: @escaping (Error?) -> Void) {
+		
+		let searchURL = baseURL.appendingPathComponent("searchResults")
+		
+		var components = URLComponents(url: searchURL, resolvingAgainstBaseURL: true)
+		
+		let searchItem = URLQueryItem(name: "term", value: searchTerm)
+		
+		let searchType = URLQueryItem(name: "entity", value: resultType.rawValue)
+		components?.queryItems = [searchItem, searchType]
+	}
 }
