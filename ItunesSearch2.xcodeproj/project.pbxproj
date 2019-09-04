@@ -16,6 +16,8 @@
 		F5849A94231F19BF00F1A44C /* SearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5849A93231F19BF00F1A44C /* SearchResult.swift */; };
 		F5849A96231F1CD500F1A44C /* ResultType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5849A95231F1CD500F1A44C /* ResultType.swift */; };
 		F5849A99231F1DE000F1A44C /* SearchResultController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5849A98231F1DE000F1A44C /* SearchResultController.swift */; };
+		F5849A9B231F628D00F1A44C /* ResultsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5849A9A231F628D00F1A44C /* ResultsTableViewCell.swift */; };
+		F5849A9D231F630000F1A44C /* SearchResultsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5849A9C231F630000F1A44C /* SearchResultsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		F5849A93231F19BF00F1A44C /* SearchResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResult.swift; sourceTree = "<group>"; };
 		F5849A95231F1CD500F1A44C /* ResultType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultType.swift; sourceTree = "<group>"; };
 		F5849A98231F1DE000F1A44C /* SearchResultController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultController.swift; sourceTree = "<group>"; };
+		F5849A9A231F628D00F1A44C /* ResultsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsTableViewCell.swift; sourceTree = "<group>"; };
+		F5849A9C231F630000F1A44C /* SearchResultsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResultsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,7 @@
 		F5849A7C231F18F300F1A44C /* ItunesSearch2 */ = {
 			isa = PBXGroup;
 			children = (
+				F5849A9A231F628D00F1A44C /* ResultsTableViewCell.swift */,
 				F5849A97231F1DD000F1A44C /* Controller */,
 				F5849A92231F19B000F1A44C /* Model */,
 				F5849A7D231F18F300F1A44C /* AppDelegate.swift */,
@@ -87,6 +92,7 @@
 		F5849A97231F1DD000F1A44C /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				F5849A9C231F630000F1A44C /* SearchResultsTableViewController.swift */,
 				F5849A98231F1DE000F1A44C /* SearchResultController.swift */,
 			);
 			path = Controller;
@@ -163,8 +169,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5849A9D231F630000F1A44C /* SearchResultsTableViewController.swift in Sources */,
 				F5849A99231F1DE000F1A44C /* SearchResultController.swift in Sources */,
 				F5849A96231F1CD500F1A44C /* ResultType.swift in Sources */,
+				F5849A9B231F628D00F1A44C /* ResultsTableViewCell.swift in Sources */,
 				F5849A86231F18F300F1A44C /* ItunesSearch2.xcdatamodeld in Sources */,
 				F5849A80231F18F300F1A44C /* ViewController.swift in Sources */,
 				F5849A94231F19BF00F1A44C /* SearchResult.swift in Sources */,
